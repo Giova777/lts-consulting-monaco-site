@@ -154,8 +154,7 @@ export default function App(){
        <div style={{ marginTop: 6, color: "var(--gold)", fontWeight: 600 }}>
   {o.price}
 </div>
-
-        <ul style={{opacity:.85;margin:'8px 0 0 18px'}}>{(o.features||[]).map(f=><li key={f}>{f}</li>)}</ul>
+        <ul style={{ opacity: 0.85, margin: "8px 0 18px" }}>{(o.features||[]).map(f=><li key={f}>{f}</li>)}</ul>
         <a href="#contact" className="btn btn-gold" style={{marginTop:10}}>Choisir</a>
       </div>))}</div>
     </div></section>

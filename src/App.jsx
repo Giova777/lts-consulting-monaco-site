@@ -151,7 +151,10 @@ export default function App(){
       <h2 style={{fontSize:28,margin:'0 0 8px 0'}}>Offres claires, résultats concrets</h2><div style={{opacity:.75,marginBottom:12}}>Trois niveaux selon votre besoin. Facturation transparente.</div>
       <div className="grid cards">{offers.map(o=>(<div className="card" key={o.name}>
         <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}><div style={{fontWeight:600}}>{o.name}</div>{o.featured && <span style={{fontSize:12,border:'1px solid rgba(198,162,74,.5)',borderRadius:10,padding:'3px 8px',color:'var(--gold)'}}>Populaire</span>}</div>
-        <div style={{marginTop:6,color:'var(--gold)',fontWeight:600}}>{o.price}</div>
+       <div style={{ marginTop: 6, color: "var(--gold)", fontWeight: 600 }}>
+  {o.price}
+</div>
+
         <ul style={{opacity:.85;margin:'8px 0 0 18px'}}>{(o.features||[]).map(f=><li key={f}>{f}</li>)}</ul>
         <a href="#contact" className="btn btn-gold" style={{marginTop:10}}>Choisir</a>
       </div>))}</div>

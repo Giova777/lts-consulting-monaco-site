@@ -1,0 +1,40 @@
+{
+  "companyName": "LTS Consulting Monaco",
+  "tagline": "Conseil & Gestion des Occupations de Voie Publique \u2014 Monaco",
+  "cta_offers": "Voir les offres",
+  "cta_expert": "Parler \u00e0 un expert",
+  "services_title": "Nos services",
+  "offers_title": "Offres claires, r\u00e9sultats concrets",
+  "offers_sub": "Trois niveaux selon votre besoin. Facturation transparente.",
+  "contact_title": "Parlez-nous de votre besoin",
+  "contact_sub": "R\u00e9ponse sous 24h ouvr\u00e9es. Devis gratuit et sans engagement.",
+  "assistant_button": "Assistant (questions guid\u00e9es)",
+  "contact_form_email": "Email",
+  "contact_form_need": "Votre besoin",
+  "send": "Envoyer",
+  "assistant": {
+    "title": "Assistant \u2014 on s\u2019occupe des questions",
+    "fields": [
+      {
+        "key": "type",
+        "label": "Quel est votre besoin principal ?",
+        "placeholder": "D\u00e9m\u00e9nagement, Chantier, \u00c9v\u00e9nementiel, Stationnement pro\u2026",
+        "required": true
+      },
+      {
+        "key": "adresse",
+        "label": "\u00c0 quelle adresse exacte ?",
+        "placeholder": "ex. 12 bd de Belgique, Monte-Carlo",
+        "required": true
+      },
+      {
+        "key": "dates",
+        "label": "Quelles dates ciblez-vous ?",
+        "placeholder": "ex. 10\u201312 d\u00e9c. 2025",
+        "required": true
+      }
+    ],
+    "brief_intro": "Bonjour,\\n\\nJe souhaite \u00eatre accompagn\u00e9 pour une OVP \u00e0 Monaco.",
+    "brief_outro": "\\n\\nPouvez-vous me confirmer les \u00e9tapes, d\u00e9lais et signalisation \u00e0 pr\u00e9voir ? Merci."
+  }
+}
